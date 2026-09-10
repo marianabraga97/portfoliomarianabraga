@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(../image/dark1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #0f172a;
+    color: #f8fafc;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1e293b;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #38bdf8;
+}
+
+.navbar nav a{
+    margin-left: 20px;
+    font-size: 0.95rem;
+    color: #94a3b8;
+    transition: color 0.3s;
+}
+
+.navbar nav a:hover{
+    color: #38bdf8;
+}
+
+.hero {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    padding: 0 20px;;
+}
+
+.hero-content h1 {
+    font-size: 2.2rem;
+    color: #d4cafa;
+    margin-bottom: 16px;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    color: #94a3b8;
+    max-width: 600px;
+    margin: 0 auto 24px auto;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+.btn-primary{
+    display: inline-block;
+    background-color: #0284c7;
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+.btn-primary:hover {
+    background-color: #0369a1;
+}
+
+.btn-secundary{
+    display: inline-block;
+    background-color: #0284c7;
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius:6px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn-secundary:hover {
+    background-color: #0369a1
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #38bdf8;
+    margin-bottom: 20px;
+}
+
+.container{
+    color: #b3b6ba;
+    text-align: center;
+    background-color: #0f172a79;
+    font-size: 1rem;
+    border-radius: 20px;
+    max-width: 700px;
+    padding: 20px;
+    margin:auto;
+    border: 1px solid #334155;
+}
+
+.container2{
+    color: #b3b6ba;
+    text-align: center;
+    background-color: #0f172a79;
+    font-size: 1rem;
+    border-radius: 20px;
+    max-width: 700px;
+    padding:20px;
+    margin: auto;
+    margin-top: 60px;
+    border: 1px solid #334155;
+}
+
+.rodape {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #b7b7b78e;
+    margin-top: 60px;
+}
